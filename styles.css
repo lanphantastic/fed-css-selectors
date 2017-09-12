@@ -1,2 +1,71 @@
 /* Move your styles here when you're ready to clean up your HTML file */
 /* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+
+/********* BASE CSS Selectors ***********/
+body{
+  font-size: 20px;
+}
+
+h1{
+  font-family: serif;
+}
+
+h2{
+  font-family: Garamond;
+}
+
+header{
+  border-bottom: thick dashed red;
+}
+
+/********* Class Selectors ***********/
+
+.class-list{
+  list-style-type: square;
+}
+
+.item{
+  border: thin dotted #a3d624;
+}
+
+.even{
+  background-color: #686ae8;
+}
+
+.odd{
+  background-color: black;
+  color: #8e1e5e;
+}
+
+/******** ID Selectors ********/
+
+#item1{
+  font-size: 30px;
+}
+
+#items {
+  text-align: right;
+}
+
+/******* Advanced ID Selectors *********/
+
+#advanced-selectors ol li p{
+  padding: 0.25em;
+  background-color: grey;
+}
+
+ul li:nth-child(2n+1){
+  background-color: green;
+}
+
+a[title = 'Bitmaker']:hover{
+  text-decoration: none;
+}
+
+#advanced-selectors ul li a:link {
+  background-color: red;
+}
+
+#advanced-selectors ul li a:hover {
+  background-color: yellow;
+}
